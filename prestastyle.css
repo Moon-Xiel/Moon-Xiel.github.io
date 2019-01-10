@@ -1,0 +1,21 @@
+section p {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.imgpresta {
+	text-align: center;
+}
+
+.imgpresta img {
+	padding: 15px;
+}
+
+@media screen and (max-width: 800px){
+    section p {
+        margin-bottom: 10px;
+    }
+    .imgpresta img {
+        width: 80%;
+    }
+}

@@ -2,60 +2,69 @@
 <html lang="">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Rébecca 'Moon Xiel' Azzouz">
-    <meta name="description" content="Nom Prénom, coach sportif certifié par l'état. Un service complet en salle ou à domicile, du crossfit au fitness sans oublier la remise en forme.">
-    <meta property="og:image" content="logo209px.png">
-    <!--Image à changer-->
-    <link rel="icon" href="logo16px.png" type="favicon">
-    <!--Favicon a changer-->
-    <meta property="og:description" content="Nom Prénom, coach sportif certifié par l'état. Un service complet en salle ou à domicile, du crossfit au fitness sans oublier la remise en forme.">
-    <meta property="og:title" content="Nom Prénom: Coach Sportif   ">
-    <link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Rébecca 'Moon Xiel' Azzouz">
+	<meta name="description" content="Jeff Smith, coach sportif certifié par l'état. Un service complet en salle, à l'extérieur ou à domicile, du crossfit au fitness sans oublier la remise en forme.">
+	<meta property="og:image" content="images/ogimage.png">
+	<link rel="icon" href="images/favicon.png" type="favicon">
+	<meta property="og:description" content="Jeff Smith, coach sportif certifié par l'état. Un service complet en salle, à l'extérieur ou à domicile, du crossfit au fitness sans oublier la remise en forme.">
+	<meta property="og:title" content="Jeff Smith: Coach Sportif   ">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="basestyle.css">
+	<link rel="stylesheet" href="prestastyle.css">
 
-    <title>Prestations</title>
+	<title>Prestations</title>
 
 </head>
 
 <body>
-    <header>
-        <img src="" alt="logo"> <!-- Logo a gauche-->
-    </header>
-    <sidebar>
-        <ul>
-            <li><a href="accueil.html" target="_self">Accueil</a></li>
-            <li><a href="propos.html" target="_self">A propos</a></li>
-            <li><a href="prestation.html" target="_self">Prestations</a></li>
-            <li><a href="tarifs.html" target="_self">Tarifs</a></li>
-            <li><a href="inscription.html" target="_self">Inscription</a></li>
-            <li><a href="contact.html" target="_self">Contact</a></li>
-        </ul>
-    </sidebar>
-    <main>
-        <h1>Les différentes prestations</h1>
-        <p>Seul(e) ou en groupe ? A l'extérieur ou à L'intérieur ? Vous trouverez toutes mes prestations disponible si dessous.</p>
-        <img src="" alt="at home">
-        <img src="" alt="exterior">
-        <img src="" alt="gym club">
-    </main>
-    <footer>
-        <div class="social">
-            <ul>
-                <li><a href="#twitter"><img src="" alt="Logo Twitter"></a></li>
-                <li><a href="#facebook"><img src="" alt="Logo Facebook"></a></li>
-                <li><a href="#insta"><img src="" alt="Logo Insta"></a></li>
-            </ul>
-        </div>
-        <div class="map">
-            <p>Adresse</p>
-            <img src="images/centredesport.png" alt="Map">
-        </div>
-        <hr>
-        <div class="licence">
-            <p>Cette œuvre est mise à disposition sous licence Attribution - Pas d’Utilisation Commerciale 3.0 France. Pour voir une copie de cette licence, visitez <a href="http://creativecommons.org/licenses/by-nc/3.0/fr">Creative Commons</a> ou écrivez à Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</p>
-        </div>
-    </footer>
+	<header class="header">
+
+		<a href="index.html"><img id="logo" src="images/logo200px.png" alt="logo"></a>
+		<nav class="nav">
+			<ul>
+				<li><a href="accueil.html" target="_self">Accueil</a></li>
+				<li><a href="propos.html" target="_self">A propos</a></li>
+				<li><a href="prestation.html" target="_self">Prestations</a></li>
+				<li><a href="tarifs.html" target="_self">Tarifs</a></li>
+				<li><a href="inscription.html" target="_self">Inscription</a></li>
+				<li><a href="contact.html" target="_self">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="container">
+		<section>
+			<h1>Les différentes prestations</h1>
+			<p>Seul(e) ou en groupe ? A l'extérieur ou à L'intérieur ? Vous trouverez toutes mes prestations disponible si dessous.</p><br>
+			<div class="imgpresta">
+				<img src="images/domicile.png" alt="at home">
+				<img src="images/exterieur.png" alt="exterior">
+				<img src="images/salle.png" alt="gym club">
+			</div>
+		</section>
+	</div>
+	<footer>
+
+		<div class="social">
+			<h3 class="bold">N'hésitez pas à me rejoindre !</h3>
+			<ul>
+				<li><a href="#twitter"><img src="images/twitterlogo.png" alt="Logo Twitter"></a></li>
+				<li><a href="#facebook"><img src="images/facebooklogo.png" alt="Logo Facebook"></a></li>
+				<li><a href="#insta"><img src="images/instalogo.png" alt="Logo Insta"></a></li>
+			</ul>
+		</div>
+		<div class="add">
+			<h3 class="bold">Adresse</h3>
+			<p class="address">Imae aut sortis suspendit vero minutias equorumque tabernis ab in.</p>
+			<img class="map" src="images/centredesport.jpg" alt="Map">
+		</div>
+
+		<div class="licence">
+			<hr>
+			<p>Cette œuvre est mise à disposition sous licence Attribution - Pas d’Utilisation Commerciale 3.0 France. Pour voir une copie de cette licence, visitez <a href="http://creativecommons.org/licenses/by-nc/3.0/fr">Creative Commons</a> ou écrivez à Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</p>
+		</div>
+	</footer>
 </body>
 
 </html>

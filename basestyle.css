@@ -1,0 +1,140 @@
+/* Reset all*/
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+hr {
+	clear: both;
+	border: none;
+}
+
+.container { 
+margin: 0 100px;}
+
+/* End */
+
+/* Body */
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 30px;
+}
+
+/* Header */
+
+.header  {
+	background-color: black;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 25px;
+}
+/* Navbar */
+.nav {
+	padding: 0;
+	margin: 0;
+	display: block;
+	background-color: #36B1BF;
+	width: 100%;
+	
+	
+	}
+
+.nav li {
+	display: inline-block;
+	list-style: none;
+	
+	
+}
+	
+.nav li a {
+	display: block;
+	padding: 20px 0;
+	margin: 0 25px;
+	color: black;
+	text-decoration: none;
+	width: 100px;
+	
+}
+
+.nav li a:hover {
+		background-color: #4AD9D9;
+}
+
+
+/* Footer */
+
+footer {
+	background-color: rgba(233, 241, 223, 0.5);
+	font-family: 'Raleway', sans-serif;
+	border: solid 5px rgba(46, 151, 163);
+	padding: 10px;
+	
+}
+
+/* h3 */
+
+.bold {
+	font-size: 17px;
+	font-weight: 900;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 10px;
+}
+
+/* Social Media */
+
+.social  {
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+
+.social li {
+	display: inline;
+}
+/* Map */
+
+.add {
+	display: block;
+	text-align: center;
+	float: right;
+	margin-right: 10px;
+}
+
+.map {
+	margin: 15px 0 15px 0;
+	width: 80%;
+	height: auto;
+	border: 2px solid #F23C50;
+}
+
+/* Licence */
+
+.licence, a {
+	display: inline;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        margin:0 30px;
+    }
+    .social {
+        float: none;    
+        margin: 0 auto;
+    }
+     .social ul{
+         text-align: center;
+    }
+}

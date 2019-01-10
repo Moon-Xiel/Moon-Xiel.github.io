@@ -1,0 +1,53 @@
+.subtitle {
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: #FFCB05;
+}
+
+.stars {
+	font-size: 15px;
+	font-style: italic;
+}
+
+table {
+	margin: 20px 0;
+	border: 3px ridge #F23C50;
+	
+}
+
+td {
+	border: 1px solid #F23C50;
+	padding: 20px;
+}
+
+.tab {
+	margin-bottom: 20px;
+	width: 50%;
+	float: left;
+	
+}
+
+@media screen and (max-width: 1200px) {
+    td {
+	padding: 10px;
+}
+    #second {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    td {
+	padding: 10px;
+}
+    .tab{
+        width: auto;
+        float: none;
+    }
+    #second {
+        flex-direction: column;
+    }
+}
+
+
+

@@ -1,0 +1,76 @@
+/* Formulaire */
+
+.formsub {
+	margin: 0 225px;
+	float: left;
+}
+
+.formsub p {
+	color: #F23C50;
+	font-weight: bolder;
+}
+
+fieldset {
+	padding: 20px;
+	margin-bottom: 20px;
+	border: 5px solid #FFCB05;
+	width: 570px;
+	
+}
+
+legend {
+	font-size: 20px;
+	
+}
+
+label {
+	display: block;
+	width: 300px;
+	float: left;
+}
+
+input {
+	width: 250px;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+#gymclub {
+	margin-bottom: 50px;
+}
+
+
+#submit {
+	display: block;
+	margin: 0 auto;
+	padding: 10px; 
+	background-color: transparent;
+	font-size: 17px;
+	height: 37px;
+	float: left ;
+}
+
+#submit:hover {
+	background-color: #FFCB05;
+}
+
+@media screen and (max-width: 1680px){
+    .imgsub {
+        display: block;
+        margin: 0 auto;
+    }
+    .formsub {
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 800px){
+    .imgsub {
+        display: none;
+    }
+    label {
+        float: none;
+    }
+    fieldset {
+        width: auto;
+    }
+}

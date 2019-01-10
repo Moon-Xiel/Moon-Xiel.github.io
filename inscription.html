@@ -2,58 +2,104 @@
 <html lang="">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Rébecca 'Moon Xiel' Azzouz">
-    <meta name="description" content="Nom Prénom, coach sportif certifié par l'état. Un service complet en salle ou à domicile, du crossfit au fitness sans oublier la remise en forme.">
-    <meta property="og:image" content="logo209px.png">
-    <!--Image à changer-->
-    <link rel="icon" href="logo16px.png" type="favicon">
-    <!--Favicon a changer-->
-    <meta property="og:description" content="Nom Prénom, coach sportif certifié par l'état. Un service complet en salle ou à domicile, du crossfit au fitness sans oublier la remise en forme.">
-    <meta property="og:title" content="Nom Prénom: Coach Sportif   ">
-    <link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Rébecca 'Moon Xiel' Azzouz">
+	<meta name="description" content="Jeff Smith, coach sportif certifié par l'état. Un service complet en salle, à l'extérieur ou à domicile, du crossfit au fitness sans oublier la remise en forme.">
+	<meta property="og:image" content="images/ogimage.png">
+	<link rel="icon" href="images/favicon.png" type="favicon">
+	<meta property="og:description" content="Jeff Smith, coach sportif certifié par l'état. Un service complet en salle, à l'extérieur ou à domicile, du crossfit au fitness sans oublier la remise en forme.">
+	<meta property="og:title" content="Jeff Smith: Coach Sportif   ">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="basestyle.css">
+	<link rel="stylesheet" href="substyle.css">
 
-    <title>Inscription</title>
+	<title>Inscription</title>
 
 </head>
 
 <body>
-    <header>
-        <img src="" alt="logo"> <!-- Logo a gauche-->
-    </header>
-    <sidebar>
-        <ul>
-            <li><a href="accueil.html" target="_self">Accueil</a></li>
-            <li><a href="propos.html" target="_self">A propos</a></li>
-            <li><a href="prestation.html" target="_self">Prestations</a></li>
-            <li><a href="tarifs.html" target="_self">Tarifs</a></li>
-            <li><a href="inscription.html" target="_self">Inscription</a></li>
-            <li><a href="contact.html" target="_self">Contact</a></li>
-        </ul>
-    </sidebar>
-    <main>
-        <p></p>
-        <img src="">
-	<p></p>
-        <img src="">
-    </main>
-    <footer>
-	    <div class="social">
-        <ul>
-            <li><a href="#twitter"><img src="" alt="Logo Twitter"></a></li>
-            <li><a href="#facebook"><img src="" alt="Logo Facebook"></a></li>
-            <li><a href="#insta"><img src="" alt="Logo Insta"></a></li>
-        </ul>
-	    </div>
-	           <div class="map">
-            <p>Adresse</p>
-            <img src="images/centredesport.png" alt="Map">
-        </div>
-        <hr>
-        <div class="licence">
-            <p>Cette œuvre est mise à disposition sous licence Attribution - Pas d’Utilisation Commerciale 3.0 France. Pour voir une copie de cette licence, visitez <a href="http://creativecommons.org/licenses/by-nc/3.0/fr">Creative Commons</a> ou écrivez à Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</p>
-        </div>
-    </footer>
-    </body>
+	<header class="header">
+
+		<a href="index.html"><img id="logo" src="images/logo200px.png" alt="logo"></a>
+		<nav class="nav">
+			<ul>
+				<li><a href="accueil.html" target="_self">Accueil</a></li>
+				<li><a href="propos.html" target="_self">A propos</a></li>
+				<li><a href="prestation.html" target="_self">Prestations</a></li>
+				<li><a href="tarifs.html" target="_self">Tarifs</a></li>
+				<li><a href="inscription.html" target="_self">Inscription</a></li>
+				<li><a href="contact.html" target="_self">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="container">
+		<section>
+			<h1>Inscription</h1>
+			<form action="mailto" class="formsub">
+				<fieldset>
+					<legend>Formulaire d'inscription </legend>
+
+					<p>Informations personelles :</p><br>
+
+					<label for="first name">Nom: </label>
+					<input type="text" required="required" name="Nom" id="Nom" autocomplete="on"><br>
+					<label for="last name">Prénom: </label>
+					<input type="text" required="required" name="Prenom" id="Prenom" autocomplete="on"><br>
+					<label for="email">Email:</label>
+					<input type="email" required="required" name="email" id="email" autocomplete="on"><br>
+					<label for="first">Femme</label>
+					<input type="radio" required="required" id="first" name="gender" value="female"><br>
+					<label for="second">Homme</label>
+					<input type="radio" required="required" id="second" name="gender" value="male"><br>
+					<label for="third">Non binaire</label>
+					<input type="radio" required="required" id="third" name="gender" value="nobinary"><br>
+
+					<br>
+					<p>Abonnement :</p><br>
+
+					<label for="withcommit">Avec engagement (12 mois)</label>
+					<input type="radio" required="required" id="withcommit" name="commit"><br>
+					<label for="withoutcommit">Sans engagement</label>
+					<input type="radio" required="required" id="withoutcommit" name="commit"><br>
+
+					<br>
+					<p>Les prestations :</p><br>
+
+					<label for="home">A domicile</label>
+					<input type="radio" required="required" name="benefit" id="home" value="home"><br>
+					<label for="outside">A l'extérieur</label>
+					<input type="radio" required="required" name="benefit" id="outside" value="outside"><br>
+					<label for="gymclub">En Salle</label>
+					<input type="radio" required="required" name="benefit" id="gymclub" value="gymclub"><br>
+					<input type="submit" name="submit" id="submit" value="Envoyer">
+				</fieldset>
+			</form>
+			<img class="imgsub" src="images/contactpix.png" alt="haltere picture">
+		</section>
+	</div>
+	<hr>
+	<footer>
+
+		<div class="social">
+			<h3 class="bold">N'hésitez pas à me rejoindre !</h3>
+			<ul>
+				<li><a href="#twitter"><img src="images/twitterlogo.png" alt="Logo Twitter"></a></li>
+				<li><a href="#facebook"><img src="images/facebooklogo.png" alt="Logo Facebook"></a></li>
+				<li><a href="#insta"><img src="images/instalogo.png" alt="Logo Insta"></a></li>
+			</ul>
+		</div>
+		<div class="add">
+			<h3 class="bold">Adresse</h3>
+			<p class="address">Imae aut sortis suspendit vero minutias equorumque tabernis ab in.</p>
+			<img class="map" src="images/centredesport.jpg" alt="Map">
+		</div>
+
+		<div class="licence">
+			<hr>
+			<p>Cette œuvre est mise à disposition sous licence Attribution - Pas d’Utilisation Commerciale 3.0 France. Pour voir une copie de cette licence, visitez <a href="http://creativecommons.org/licenses/by-nc/3.0/fr">Creative Commons</a> ou écrivez à Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</p>
+		</div>
+	</footer>
+</body>
+
 </html>
